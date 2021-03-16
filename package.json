@@ -1,0 +1,30 @@
+{
+  "name": "ahj_7_http_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gudbrant/AHJ_7_HTTP_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gudbrant/AHJ_7_HTTP_2/issues"
+  },
+  "homepage": "https://github.com/gudbrant/AHJ_7_HTTP_2#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
